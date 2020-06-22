@@ -37,7 +37,7 @@ add_subdirectory(ThirdParty)
 add_subdirectory(TextureLoader)
 add_subdirectory(AssetLoader)
 add_subdirectory(Imgui)
-add_subdirectory(NativeApp)
+#add_subdirectory(NativeApp)
 
 if(PLATFORM_WIN32 AND GL_SUPPORTED)
     add_subdirectory(HLSL2GLSLConverter)
@@ -61,4 +61,4 @@ if(DILIGENT_INSTALL_TOOLS)
 endif()
 
 # Create a custom target to run source code formatting validation command
-add_format_validation_target(DiligentTools "${CMAKE_CURRENT_SOURCE_DIR}" DiligentTools)
+#add_format_validation_target(DiligentTools "${CMAKE_CURRENT_SOURCE_DIR}" DiligentTools)

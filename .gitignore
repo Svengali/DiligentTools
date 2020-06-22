@@ -35,3 +35,4 @@ doc/latex
 *.obj
 Debug
 Release
+build/
